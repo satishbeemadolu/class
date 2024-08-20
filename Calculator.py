@@ -1,6 +1,6 @@
 class Calculator():
-     def add(self,a,b):
-        c=a+b
+     def add(self,a,b,d):
+        c=a+b+d
         print(c)
-object=Calculator(10,20)
-object.add
+object=Calculator()
+object.add(10,20,30)
